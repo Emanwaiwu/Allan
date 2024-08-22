@@ -25,7 +25,6 @@ import twentythree from "../images/23.jpg";
 import twentyfour from "../images/24.jpg";
 import Navigation from "../components/Navigation";
 
-
 const Portfolio = () => {
   return (
     <div>
@@ -35,62 +34,62 @@ const Portfolio = () => {
       <div className="grid grid-cols-3 w-screen">
         <div className="h-[96vh] overflow-hidden">
           <div className="marquee-down flex flex-col">
-            <img src={one} alt="" className="border border-black" />
-            <img src={two} alt="" className="border border-black" />
-            <img src={three} alt="" className="border border-black" />
-            <img src={four} alt="" className="border border-black" />
-            <img src={five} alt="" className="border border-black" />
-            <img src={six} alt="" className="border border-black" />
-            <img src={seven} alt="" className="border border-black" />
-            <img src={eight} alt="" className="border border-black" />
-            <img src={one} alt="" className="border border-black" />
-            <img src={two} alt="" className="border border-black" />
-            <img src={three} alt="" className="border border-black" />
-            <img src={four} alt="" className="border border-black" />
-            <img src={five} alt="" className="border border-black" />
-            <img src={six} alt="" className="border border-black" />
-            <img src={seven} alt="" className="border border-black" />
-            <img src={eight} alt="" className="border border-black" />
+            <img src={one} alt="" className="border border-black" loading="lazy" />
+            <img src={two} alt="" className="border border-black" loading="lazy" />
+            <img src={three} alt="" className="border border-black" loading="lazy" />
+            <img src={four} alt="" className="border border-black" loading="lazy" />
+            <img src={five} alt="" className="border border-black" loading="lazy" />
+            <img src={six} alt="" className="border border-black" loading="lazy" />
+            <img src={seven} alt="" className="border border-black" loading="lazy" />
+            <img src={eight} alt="" className="border border-black" loading="lazy" />
+            <img src={one} alt="" className="border border-black" loading="lazy" />
+            <img src={two} alt="" className="border border-black" loading="lazy" />
+            <img src={three} alt="" className="border border-black" loading="lazy" />
+            <img src={four} alt="" className="border border-black" loading="lazy" />
+            <img src={five} alt="" className="border border-black" loading="lazy" />
+            <img src={six} alt="" className="border border-black" loading="lazy" />
+            <img src={seven} alt="" className="border border-black" loading="lazy" />
+            <img src={eight} alt="" className="border border-black" loading="lazy" />
           </div>
         </div>
         <div className="relative h-[96vh] overflow-hidden">
           <div className="marquee-up flex flex-col">
-            <img src={nine} alt="" className="border border-black" />
-            <img src={ten} alt="" className="border border-black" />
-            <img src={eleven} alt="" className="border border-black" />
-            <img src={twelve} alt="" className="border border-black" />
-            <img src={thirteen} alt="" className="border border-black" />
-            <img src={fourteen} alt="" className="border border-black" />
-            <img src={fifteen} alt="" className="border border-black" />
-            <img src={sixteen} alt="" className="border border-black" />
-            <img src={nine} alt="" className="border border-black" />
-            <img src={ten} alt="" className="border border-black" />
-            <img src={eleven} alt="" className="border border-black" />
-            <img src={twelve} alt="" className="border border-black" />
-            <img src={thirteen} alt="" className="border border-black" />
-            <img src={fourteen} alt="" className="border border-black" />
-            <img src={fifteen} alt="" className="border border-black" />
-            <img src={sixteen} alt="" className="border" />
+            <img src={nine} alt="" className="border border-black" loading="lazy" />
+            <img src={ten} alt="" className="border border-black" loading="lazy" />
+            <img src={eleven} alt="" className="border border-black" loading="lazy" />
+            <img src={twelve} alt="" className="border border-black" loading="lazy" />
+            <img src={thirteen} alt="" className="border border-black" loading="lazy" />
+            <img src={fourteen} alt="" className="border border-black" loading="lazy" />
+            <img src={fifteen} alt="" className="border border-black" loading="lazy" />
+            <img src={sixteen} alt="" className="border border-black" loading="lazy" />
+            <img src={nine} alt="" className="border border-black" loading="lazy" />
+            <img src={ten} alt="" className="border border-black" loading="lazy" />
+            <img src={eleven} alt="" className="border border-black" loading="lazy" />
+            <img src={twelve} alt="" className="border border-black" loading="lazy" />
+            <img src={thirteen} alt="" className="border border-black" loading="lazy" />
+            <img src={fourteen} alt="" className="border border-black" loading="lazy" />
+            <img src={fifteen} alt="" className="border border-black" loading="lazy" />
+            <img src={sixteen} alt="" className="border" loading="lazy" />
           </div>
         </div>
         <div className="relative h-[96vh] overflow-hidden">
           <div className="marquee-down flex flex-col">
-            <img src={seventeen} alt="" className="border border-black" />
-            <img src={eighteen} alt="" className="border border-black" />
-            <img src={nineteen} alt="" className="border border-black" />
-            <img src={twenty} alt="" className="border border-black" />
-            <img src={twentyone} alt="" className="border border-black" />
-            <img src={twentytwo} alt="" className="border border-black" />
-            <img src={twentythree} alt="" className="border border-black" />
-            <img src={twentyfour} alt="" className="border border-black" />
-            <img src={seventeen} alt="" className="border border-black" />
-            <img src={eighteen} alt="" className="border border-black" />
-            <img src={nineteen} alt="" className="border border-black" />
-            <img src={twenty} alt="" className="border border-black" />
-            <img src={twentyone} alt="" className="border border-black" />
-            <img src={twentytwo} alt="" className="border border-black" />
-            <img src={twentythree} alt="" className="border border-black" />
-            <img src={twentyfour} alt="" className="border border-black" />
+            <img src={seventeen} alt="" className="border border-black" loading="lazy" />
+            <img src={eighteen} alt="" className="border border-black" loading="lazy" />
+            <img src={nineteen} alt="" className="border border-black" loading="lazy" />
+            <img src={twenty} alt="" className="border border-black" loading="lazy" />
+            <img src={twentyone} alt="" className="border border-black" loading="lazy" />
+            <img src={twentytwo} alt="" className="border border-black" loading="lazy" />
+            <img src={twentythree} alt="" className="border border-black" loading="lazy" />
+            <img src={twentyfour} alt="" className="border border-black" loading="lazy" />
+            <img src={seventeen} alt="" className="border border-black" loading="lazy" />
+            <img src={eighteen} alt="" className="border border-black" loading="lazy" />
+            <img src={nineteen} alt="" className="border border-black" loading="lazy" />
+            <img src={twenty} alt="" className="border border-black" loading="lazy" />
+            <img src={twentyone} alt="" className="border border-black" loading="lazy" />
+            <img src={twentytwo} alt="" className="border border-black" loading="lazy" />
+            <img src={twentythree} alt="" className="border border-black" loading="lazy" />
+            <img src={twentyfour} alt="" className="border border-black" loading="lazy" />
           </div>
         </div>
       </div>

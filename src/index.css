@@ -14,11 +14,11 @@ body {
 }
 
 .marquee-down {
-  animation: scrollDown 55s linear infinite;
+  animation: scrollDown 35s linear infinite;
 }
 
 .marquee-up {
-  animation: scrollUp 55s linear infinite;
+  animation: scrollUp 35s linear infinite;
 }
 
 @keyframes scrollUp {
@@ -36,5 +36,17 @@ body {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+.marquee-down,
+.marquee-up {
+  will-change: transform;
+}
+
+@media (max-width: 768px) {
+  .marquee-down,
+  .marquee-up {
+    animation-duration: 80s; /* Slow down on smaller devices */
   }
 }
